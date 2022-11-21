@@ -4,7 +4,7 @@ See the [documentation of how temporal extents are represented in PeriodO](https
 
 Examples:
 
-* [Mell. Enkeltgravskultur](mud-mell-enkeltgravskultur.ttl) as [defined in MUD - Museernes Udgravningsdata Danmark Dateringskodetabel](http://n2t.net/ark:/99152/p0r8d9ccs43)
+* [Mell. Enkeltgravskultur](mud-mell-enkeltgravskultur.ttl#L19-L24) as [defined in MUD - Museernes Udgravningsdata Danmark Dateringskodetabel](http://n2t.net/ark:/99152/p0r8d9ccs43)
     
     A single year for the start interval and a single year for the stop interval.
     
