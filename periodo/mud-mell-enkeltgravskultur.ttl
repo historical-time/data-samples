@@ -1,0 +1,24 @@
+@prefix dcelements: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix periodo:    <http://n2t.net/ark:/99152/p0v#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:       <http://www.w3.org/2006/time#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+<http://n2t.net/ark:/99152/p0r8d9ccs43>
+        rdf:type                 skos:Concept ;
+        periodo:spatialCoverageDescription
+                "Denmark" ;
+        dcelements:language      "da" ;
+        dcterms:language         <http://lexvo.org/id/iso639-1/da> ;
+        dcterms:spatial          <http://www.wikidata.org/entity/Q35> ;
+        skos:altLabel            "AYEM"@da , "Mell. Enkeltgravskultur"@da , "Mid Single Grave Culture"@en ;
+        skos:inScheme            <http://n2t.net/ark:/99152/p0r8d9c> ;
+        skos:prefLabel           "Mell. Enkeltgravskultur" ;
+        time:intervalFinishedBy  [ skos:prefLabel               "-2450" ;
+                                   time:hasDateTimeDescription  [ time:year  "-2450"^^xsd:gYear ]
+                                 ] ;
+        time:intervalStartedBy   [ skos:prefLabel               "-2600" ;
+                                   time:hasDateTimeDescription  [ time:year  "-2600"^^xsd:gYear ]
+                                 ] .

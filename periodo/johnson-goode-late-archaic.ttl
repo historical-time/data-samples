@@ -1,0 +1,32 @@
+@prefix bibo:       <http://purl.org/ontology/bibo/> .
+@prefix dcelements: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix periodo:    <http://n2t.net/ark:/99152/p0v#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:       <http://www.w3.org/2006/time#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+<http://n2t.net/ark:/99152/p0t3585c8d7>
+        rdf:type                 skos:Concept ;
+        periodo:spatialCoverageDescription
+                "Central Texas" ;
+        dcelements:language      "en" ;
+        dcterms:language         <http://lexvo.org/id/iso639-1/en> ;
+        dcterms:source           [ bibo:locator  "p. 5, fig. 2; p. 29; p. 39-40" ] ;
+        dcterms:spatial          <http://www.wikidata.org/entity/Q1439> ;
+        skos:altLabel            "Late Archaic Period"@en ;
+        skos:broader             <http://n2t.net/ark:/99152/p0t3585kxnj> ;
+        skos:inScheme            <http://n2t.net/ark:/99152/p0t3585> ;
+        skos:note                "\"I provisionally stop the Late Archaic period around A.D. 600... Nevertheless, one should underscore the fact that some cultural and considerable economic continuity tied the end of the Late Archaic period with what came directly afterwards. In fact, of all the period boundaries set in the present paper, that for the ending of the Late Archaic II subperiod is the most subjective and bothersome... If the informed reader wishes to terminate the Late Archaic period at A.D. 1200, I will not argue. Or if the reader wants to stop the period at around A.D. 400 (or later), when very small \"dart\" points of the Darl and Figueroa sort appear in the region, that is another possibility\" (pp. 39-40)." ;
+        skos:prefLabel           "Late Archaic Period" ;
+        time:intervalFinishedBy  [ skos:prefLabel               "A.D. 400/A.D. 1200" ;
+                                   time:hasDateTimeDescription  [ periodo:earliestYear  "0400"^^xsd:gYear ;
+                                                                  periodo:latestYear    "1200"^^xsd:gYear
+                                                                ]
+                                 ] ;
+        time:intervalStartedBy   [ skos:prefLabel               "around 2300 B.C." ;
+                                   time:hasDateTimeDescription  [ time:year  "-2299"^^xsd:gYear ]
+                                 ] ;
+        prov:wasDerivedFrom      <http://n2t.net/ark:/99152/p0qkjhbj9mg> .

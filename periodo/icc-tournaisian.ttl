@@ -1,0 +1,29 @@
+@prefix dcelements: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix periodo:    <http://n2t.net/ark:/99152/p0v#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:       <http://www.w3.org/2006/time#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+<http://n2t.net/ark:/99152/p09qtgwqhqk>
+        rdf:type                 skos:Concept ;
+        dcelements:language      "en" ;
+        dcterms:language         <http://lexvo.org/id/iso639-1/en> ;
+        dcterms:spatial          <http://www.wikidata.org/entity/Q2> ;
+        owl:sameAs               <http://resource.geosciml.org/classifier/ics/ischart/Tournaisian> ;
+        skos:altLabel            "トルネージアン期"@ja , "tournas"@sv , "Turnėjis"@lt , "tournasiano"@it , "Tournaisian"@en , "Tournasium"@no , "Turnaisiano"@pt , "tournaisi"@hu , "Tournaisiense"@es , "Tournaisiën"@nl , "Early Mississippian"@en , "Tournais"@fi , "Tournais"@et , "Турней"@bg , "杜内期"@zh , "turnén"@sk , "Tournaisien"@fr , "Tournaisien"@da , "tournaisij"@sl , "Tournai"@cs , "Turnej"@pl , "Tournaisium"@de ;
+        skos:broader             <http://n2t.net/ark:/99152/p09qtgwrt5d> ;
+        skos:inScheme            <http://n2t.net/ark:/99152/p09qtgw> ;
+        skos:prefLabel           "Tournaisian Age" ;
+        time:intervalFinishedBy  [ skos:prefLabel               "Base of Middle Mississippian" ;
+                                   time:hasDateTimeDescription  [ periodo:earliestYear  "-347098049"^^xsd:gYear ;
+                                                                  periodo:latestYear    "-346298050"^^xsd:gYear
+                                                                ]
+                                 ] ;
+        time:intervalStartedBy   [ skos:prefLabel               "Base of Carboniferous" ;
+                                   time:hasDateTimeDescription  [ periodo:earliestYear  "-359298049"^^xsd:gYear ;
+                                                                  periodo:latestYear    "-358498050"^^xsd:gYear
+                                                                ]
+                                 ] .

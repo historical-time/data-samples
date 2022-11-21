@@ -1,0 +1,28 @@
+@prefix dcelements: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix periodo:    <http://n2t.net/ark:/99152/p0v#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:       <http://www.w3.org/2006/time#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+<http://n2t.net/ark:/99152/p08m57h395t>
+        rdf:type                 skos:Concept ;
+        dcelements:language      "en" ;
+        dcterms:language         <http://lexvo.org/id/iso639-1/en> ;
+        dcterms:spatial          <http://www.wikidata.org/entity/Q148> ;
+        owl:sameAs               <http://collection.britishmuseum.org/id/thesauri/x13693> ;
+        skos:altLabel            "Banshan Period"@en , "Banshan"@en ;
+        skos:editorialNote       "Spatial coverage inferred from period name." ;
+        skos:inScheme            <http://n2t.net/ark:/99152/p08m57h> ;
+        skos:note                "circa 2600 BC-2300 BC" ;
+        skos:prefLabel           "Banshan Period" ;
+        time:intervalFinishedBy  [ skos:prefLabel               "2300 BC" ;
+                                   time:hasDateTimeDescription  [ time:year  "-2299"^^xsd:gYear ]
+                                 ] ;
+        time:intervalStartedBy   [ skos:prefLabel               "circa 2600 BC" ;
+                                   time:hasDateTimeDescription  [ time:year  "-2599"^^xsd:gYear ]
+                                 ] ;
+        foaf:page                <http://collection.britishmuseum.org/id/thesauri/x13693> .

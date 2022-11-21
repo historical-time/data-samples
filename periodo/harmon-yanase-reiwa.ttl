@@ -1,0 +1,23 @@
+@prefix dcelements: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix periodo:    <http://n2t.net/ark:/99152/p0v#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:       <http://www.w3.org/2006/time#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+<http://n2t.net/ark:/99152/p0fbfthrjgj>
+        rdf:type                 skos:Concept ;
+        periodo:spatialCoverageDescription
+                "Japan" ;
+        dcelements:language      "en" ;
+        dcterms:language         <http://lexvo.org/id/iso639-1/en> ;
+        dcterms:spatial          <http://www.wikidata.org/entity/Q17> ;
+        skos:altLabel            "令和期"@ja , "Reiwa era "@en ;
+        skos:inScheme            <http://n2t.net/ark:/99152/p0fbfth> ;
+        skos:prefLabel           "Reiwa era " ;
+        time:intervalFinishedBy  [ skos:prefLabel
+                          "present" ] ;
+        time:intervalStartedBy   [ skos:prefLabel               "2019" ;
+                                   time:hasDateTimeDescription  [ time:year  "2019"^^xsd:gYear ]
+                                 ] .
