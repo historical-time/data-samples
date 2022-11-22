@@ -2,6 +2,8 @@
 
 See the [documentation of how temporal extents are represented in PeriodO](https://perio.do/technical-overview/#temporal-extent).
 
+See also [how we parse (some) text representations of years and year ranges into numeric values](https://github.com/periodo/periodo-client/tree/master/modules/periodo-date-parser).
+
 Examples:
 
 * [Mell. Enkeltgravskultur](mud-mell-enkeltgravskultur.ttl#L19-L24) as [defined in MUD - Museernes Udgravningsdata Danmark Dateringskodetabel](http://n2t.net/ark:/99152/p0r8d9ccs43)
