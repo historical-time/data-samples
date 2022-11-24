@@ -1,0 +1,59 @@
+# A single Linked Places format FeatureCollection with a single feature, titled 'Ciudad de Mexico'
+# The name 'Mexico' is temporally scoped, as are the single point geometry and five part-of relations
+# to administrative units: the broad territory, a Jurisdiccion, an Audiencia, an Obispado, and a Provincia
+
+{
+  "type": "FeatureCollection",
+  "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.3.jsonld",
+  "features": [
+	{
+		"type" : "Feature", 
+		"@id" : "https://www.hgis-indias.net/dokuwiki/doku.php?id=gazetteer:1000001", 
+		"properties" : {
+			"title": "Ciudad de Mexico", 
+			"ccodes": ["MX"]
+		}, 
+		"names" : [
+			{	"lang": "es", 
+				"when": {"timespans": [{"end": {"in": "1808"}, "start": {"in": "1521"}}]}, 
+				"toponym": "Mexico", 
+				"citation": {
+					"@id": "", 
+					"label": "GERHARD, Peter: A Guide to the Historical Geography of New Spain (Cambridge 1972)."}
+			}
+		], 
+		"types" : [
+			{	"label": "city", "identifier": "aat:300008389", "sourceLabel": "Ciudad"}
+		], 
+		"geometry" : {
+			"type": "GeometryCollection", 
+			"geometries": [
+				{	"type": "Point", 
+					"when": {"timespans": [{"end": {"in": "1808"}, "start": {"in": "1521"}}]}, 
+					"geowkt": "POINT(-99.13313445 19.43378643)", 
+					"coordinates": [-99.13313445, 19.43378643]}]}, 
+			"relations" : [
+				{	"when": {"timespans": [{"end": {"in": 1808}, "start": {"in": 1701}}]}, 
+					"label": "Nueva España (Superior)", 
+					"relationTo": "http://www.hgis-indias.net/dokuwiki/doku.php?id=SUNE0000", 
+					"relationType": "gvp:broaderPartitive"}, 
+				{	"when": {"timespans": [{"end": {"in": 1808}, "start": {"in": 1701}}]}, 
+					"label": "Mexico (Jurisdiccion)", 
+					"relationTo": "http://www.hgis-indias.net/dokuwiki/doku.php?id=JUNEMXMX", 
+					"relationType": "gvp:broaderPartitive"}, 
+				{	"when": {"timespans": [{"end": {"in": 1808}, "start": {"in": 1701}}]}, 
+					"label": "Mexico (Audiencia)", 
+					"relationTo": "http://www.hgis-indias.net/dokuwiki/doku.php?id=AUMX0000", 
+					"relationType": "gvp:broaderPartitive"}, 
+				{	"when": {"timespans": [{"end": {"in": 1808}, "start": {"in": 1701}}]}, 
+					"label": "Mexico (Obispado)", 
+					"relationTo": "http://www.hgis-indias.net/dokuwiki/doku.php?id=OBNEMX00", 
+					"relationType": "gvp:broaderPartitive"}, 
+				{	"when": {"timespans": [{"end": {"in": 1808}, "start": {"in": 1701}}]}, 
+					"label": "Nueva España (Provincia)", 
+					"relationTo": "http://www.hgis-indias.net/dokuwiki/doku.php?id=PRNEMX00", 
+					"relationType": "gvp:broaderPartitive"}
+			]
+		}
+	]
+}
