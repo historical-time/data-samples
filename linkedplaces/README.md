@@ -12,10 +12,9 @@ Example from the spec illustrating most of the format's required and optional el
 	The entire Feature is temporally scoped by a "when" element, with both a timespan and multiple references to named periods.
 Other attributes temporally scoped in this way are names, type (place type), geometry, and relations to other entities.
 
-    
-* [Ciudad de Mexico](Ciudad-de-Mexico.jsonld), from the [HGIS de las Indias contribution in World Historical Gazetteer](). Derived from data in the [original project]().
+
+* [Ciudad de Mexico](Ciudad-de-Mexico.jsonld), from the [HGIS de las Indias contribution in World Historical Gazetteer](https://whgazetteer.org/datasets/9/places). Derived from data of the [original project](https://www.hgis-indias.net/).
 
 	A single FeatureCollection with a single feature, titled 'Ciudad de Mexico'
-	
+
 	The name 'Mexico' is temporally scoped, as are the single point geometry and five part-of relations to administrative units: the broad territory, a Jurisdiccion, an Audiencia, an Obispado, and a Provincia.
-    
