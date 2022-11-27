@@ -1,0 +1,5 @@
+Sequence;Period;Input Earliest Start;Input Latest Start;Input Earliest End;Input Latest End;Input Min. Duration;Input Max. Duration
+ChronoLand strata;Stratum 2;?;?;?;?;20;?
+ChronoLand strata;Stratum 1;?;?;?;?;20;?
+ChronoLand kings;Albert;1200;?;?;?;0;10
+ChronoLand kings;Baldwin;?;?;?;1300;35;?
