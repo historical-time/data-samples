@@ -18,4 +18,4 @@ For more details on the ChronoLog data model, see:
 
 * CSV format: ChronoLog can export and import models in CSV format. This is done in two steps: first export/import the sequences, then the synchronisms (via the " File" menu).
 
-Examples of such files are provided in this repository.
+Examples of such files for our dummy example called "ChronoLand" (see user manual and JAS paper) are provided in this repository. For more complex exampes, from real-life case studies, see [here](https://chrono.ulb.be/download/).
