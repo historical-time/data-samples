@@ -1,3 +1,5 @@
+# Matrix / Phaser data samples
+
 The Matrix project has developed software to support stratigraphic analysis and temporal analysis - Phasing, Grouping and Periodization - by archaeologists using Harris Matrix methodologies. The [prototype software tool](https://stratigraphic.github.io/phaser-app/) is called "Phaser". A [help file](https://stratigraphic.github.io/phaser-app/help.html) explaining more of the functionality of the Phaser software and how to use it is available.
 
 The prototype _is not intended currently to be fully functioning_ Matrix recording and Stratigraphic Phasing analysis and archiving software. It would need more development and administrative work and resources to make it available e.g. as Open and FAIR software through an online tool with suitable registration for an archaeological community of users.
