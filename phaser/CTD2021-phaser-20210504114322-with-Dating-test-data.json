@@ -1,0 +1,962 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "phase-1",
+          "class": "phase",
+          "label": "Phase 1",
+          "description": "",
+          "dating": {
+            "label": "",
+            "minYear": "-3500",
+            "maxYear": "-50",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          }
+        },
+        "position": {
+          "x": 234.5,
+          "y": 1574
+        }
+      },
+      {
+        "data": {
+          "id": "phase-2",
+          "class": "phase",
+          "label": "Phase 2",
+          "description": "",
+          "dating": {
+            "label": "",
+            "minYear": "-50",
+            "maxYear": "43",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          }
+        },
+        "position": {
+          "x": 344.5,
+          "y": 1171
+        }
+      },
+      {
+        "data": {
+          "id": "phase-3",
+          "class": "phase",
+          "label": "Phase 3",
+          "description": "",
+          "dating": {
+            "label": "",
+            "minYear": "43",
+            "maxYear": "410",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          }
+        },
+        "position": {
+          "x": 244.5,
+          "y": 740
+        }
+      },
+      {
+        "data": {
+          "id": "phase-4",
+          "class": "phase",
+          "label": "Phase 4",
+          "description": "",
+          "dating": {
+            "label": "",
+            "minYear": "410",
+            "maxYear": "1400",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          }
+        },
+        "position": {
+          "x": 230,
+          "y": 548
+        }
+      },
+      {
+        "data": {
+          "id": "phase-5",
+          "class": "phase",
+          "label": "Phase 5",
+          "description": "",
+          "dating": {
+            "label": "",
+            "minYear": "1400",
+            "maxYear": "1800",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          }
+        },
+        "position": {
+          "x": 234.5,
+          "y": 294
+        }
+      },
+      {
+        "data": {
+          "id": "phase-6",
+          "class": "phase",
+          "label": "Phase 6",
+          "description": "",
+          "dating": {
+            "label": "",
+            "minYear": "1800",
+            "maxYear": "2021",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          }
+        },
+        "position": {
+          "x": 230,
+          "y": 40
+        }
+      },
+      {
+        "data": {
+          "id": "group-1",
+          "class": "group",
+          "parent": "phase-1",
+          "type": "Prehistoric land surface",
+          "cud": "",
+          "label": "1",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 1574
+        }
+      },
+      {
+        "data": {
+          "id": "group-2",
+          "class": "group",
+          "parent": "phase-2",
+          "type": "Pit",
+          "cud": "",
+          "label": "2",
+          "description": ""
+        },
+        "position": {
+          "x": 340,
+          "y": 1226
+        }
+      },
+      {
+        "data": {
+          "id": "group-3",
+          "class": "group",
+          "parent": "phase-3",
+          "type": "Post-hole: group",
+          "cud": "",
+          "label": "3",
+          "description": ""
+        },
+        "position": {
+          "x": 240,
+          "y": 740
+        }
+      },
+      {
+        "data": {
+          "id": "group-4",
+          "class": "group",
+          "parent": "phase-5",
+          "type": "Post-hole",
+          "cud": "",
+          "label": "4",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 294
+        }
+      },
+      {
+        "data": {
+          "id": "subgroup-1",
+          "class": "subgroup",
+          "parent": "group-2",
+          "type": "",
+          "cud": "",
+          "label": "2.1",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 1284
+        }
+      },
+      {
+        "data": {
+          "id": "subgroup-2",
+          "class": "subgroup",
+          "parent": "group-2",
+          "type": "",
+          "cud": "",
+          "label": "2.2",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 1048
+        }
+      },
+      {
+        "data": {
+          "id": "subgroup-3",
+          "class": "subgroup",
+          "parent": "group-3",
+          "type": "",
+          "cud": "",
+          "label": "3.1",
+          "description": ""
+        },
+        "position": {
+          "x": 130,
+          "y": 740
+        }
+      },
+      {
+        "data": {
+          "id": "subgroup-4",
+          "class": "subgroup",
+          "parent": "group-3",
+          "type": "",
+          "cud": "",
+          "label": "3.2",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 740
+        }
+      },
+      {
+        "data": {
+          "id": "context-1",
+          "class": "context",
+          "parent": "phase-6",
+          "type": "Layer: topsoil",
+          "cud": "",
+          "label": "1",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 40
+        }
+      },
+      {
+        "data": {
+          "id": "context-2",
+          "class": "context",
+          "parent": "group-4",
+          "type": "Post pipe: fill",
+          "cud": "",
+          "label": "2",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 174
+        }
+      },
+      {
+        "data": {
+          "id": "context-19",
+          "class": "context",
+          "parent": "group-4",
+          "type": "Post pipe",
+          "cud": "",
+          "label": "19",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 254
+        }
+      },
+      {
+        "data": {
+          "id": "context-18",
+          "class": "context",
+          "parent": "group-4",
+          "type": "Post hole: packing",
+          "cud": "",
+          "label": "18",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 334
+        }
+      },
+      {
+        "data": {
+          "id": "context-3",
+          "class": "context",
+          "parent": "group-4",
+          "type": "Post hole",
+          "cud": "",
+          "label": "3",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 414
+        }
+      },
+      {
+        "data": {
+          "id": "context-4",
+          "class": "context",
+          "parent": "phase-4",
+          "type": "Layer",
+          "cud": "",
+          "label": "4",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 548
+        }
+      },
+      {
+        "data": {
+          "id": "context-5",
+          "class": "context",
+          "parent": "subgroup-3",
+          "type": "Post hole: fill",
+          "cud": "",
+          "label": "5",
+          "description": ""
+        },
+        "position": {
+          "x": 130,
+          "y": 700
+        }
+      },
+      {
+        "data": {
+          "id": "context-7",
+          "class": "context",
+          "parent": "subgroup-3",
+          "type": "Post hole",
+          "cud": "",
+          "label": "7",
+          "description": ""
+        },
+        "position": {
+          "x": 130,
+          "y": 780
+        }
+      },
+      {
+        "data": {
+          "id": "context-6",
+          "class": "context",
+          "parent": "subgroup-4",
+          "type": "Post hole: fill",
+          "cud": "",
+          "label": "6",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 700
+        }
+      },
+      {
+        "data": {
+          "id": "context-8",
+          "class": "context",
+          "parent": "subgroup-4",
+          "type": "Post hole",
+          "cud": "",
+          "label": "8",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 780
+        }
+      },
+      {
+        "data": {
+          "id": "context-9",
+          "class": "context",
+          "parent": "phase-2",
+          "type": "Layer: accumulation",
+          "cud": "",
+          "label": "9",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 932
+        }
+      },
+      {
+        "data": {
+          "id": "context-10",
+          "class": "context",
+          "parent": "subgroup-2",
+          "type": "Pit: fill",
+          "cud": "",
+          "label": "10",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 1048
+        }
+      },
+      {
+        "data": {
+          "id": "context-11",
+          "class": "context",
+          "parent": "subgroup-1",
+          "type": "Pit: fill",
+          "cud": "",
+          "label": "11",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 1164
+        }
+      },
+      {
+        "data": {
+          "id": "context-12",
+          "class": "context",
+          "parent": "subgroup-1",
+          "type": "Pit: fill",
+          "cud": "",
+          "label": "12",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 1244
+        }
+      },
+      {
+        "data": {
+          "id": "context-13",
+          "class": "context",
+          "parent": "subgroup-1",
+          "type": "Pit: fill",
+          "cud": "",
+          "label": "13",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 1324
+        }
+      },
+      {
+        "data": {
+          "id": "context-14",
+          "class": "context",
+          "parent": "subgroup-1",
+          "type": "Pit",
+          "cud": "",
+          "label": "14",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 1404
+        }
+      },
+      {
+        "data": {
+          "id": "context-15",
+          "class": "context",
+          "parent": "group-1",
+          "type": "Layer",
+          "cud": "",
+          "label": "15",
+          "description": ""
+        },
+        "position": {
+          "x": 130,
+          "y": 1574
+        }
+      },
+      {
+        "data": {
+          "id": "context-16",
+          "class": "context",
+          "parent": "group-1",
+          "type": "Layer",
+          "cud": "",
+          "label": "16",
+          "description": ""
+        },
+        "position": {
+          "x": 330,
+          "y": 1574
+        }
+      },
+      {
+        "data": {
+          "id": "context-17",
+          "class": "context",
+          "type": "Layer: natural",
+          "cud": "",
+          "label": "17",
+          "description": ""
+        },
+        "position": {
+          "x": 230,
+          "y": 1690
+        }
+      },
+      {
+        "data": {
+          "id": "context-+",
+          "class": "context",
+          "type": "",
+          "cud": "",
+          "label": "+",
+          "description": "",
+          "dating": {
+            "label": "",
+            "minYear": null,
+            "maxYear": null,
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "siteCode": "XSM10"
+        },
+        "position": {
+          "x": 300,
+          "y": -100
+        }
+      },
+      {
+        "data": {
+          "id": "dating-1",
+          "class": "dating",
+          "parent": "context-6",
+          "type": "Coin",
+          "label": "1199",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "193",
+            "maxYear": "235",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "include": false
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "data": {
+          "id": "dating-2",
+          "class": "dating",
+          "parent": "context-6",
+          "type": "Coin",
+          "label": "454",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "201",
+            "maxYear": "201",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "include": true
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "data": {
+          "id": "dating-3",
+          "class": "dating",
+          "parent": "context-6",
+          "type": "Coin",
+          "label": "461",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "40",
+            "maxYear": "96",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "include": true
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "data": {
+          "id": "dating-4",
+          "class": "dating",
+          "parent": "context-18",
+          "type": "Coin",
+          "label": "1205",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "1695",
+            "maxYear": "1699",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "include": true
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "data": {
+          "id": "dating-5",
+          "class": "dating",
+          "parent": "context-18",
+          "type": "Coin",
+          "label": "1209",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "1673",
+            "maxYear": "1730",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "include": true
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "data": {
+          "id": "dating-6",
+          "class": "dating",
+          "parent": "context-5",
+          "type": "Coin",
+          "label": "1240",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "222",
+            "maxYear": "222",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "include": true
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "data": {
+          "id": "dating-7",
+          "class": "dating",
+          "parent": "context-4",
+          "type": "Coin",
+          "label": "1242",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "1485",
+            "maxYear": "1509",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "include": true
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "data": {
+          "id": "dating-8",
+          "class": "dating",
+          "parent": "context-4",
+          "type": "Coin",
+          "label": "1243",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "1471",
+            "maxYear": "1483",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          },
+          "include": true
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "data": {
+          "id": "dating-9",
+          "class": "dating",
+          "parent": "context-18",
+          "type": "Clay Pipe",
+          "label": "AO20",
+          "description": "",
+          "included": true,
+          "association": "direct",
+          "dating": {
+            "label": "",
+            "minYear": "1680",
+            "maxYear": "1710",
+            "minYearTolValue": 0,
+            "maxYearTolValue": 0,
+            "minYearTolUnit": "years",
+            "maxYearTolUnit": "years"
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "edge-context-1-context-2",
+          "source": "context-1",
+          "target": "context-2",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-2-context-19",
+          "source": "context-2",
+          "target": "context-19",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-19-context-18",
+          "source": "context-19",
+          "target": "context-18",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-18-context-3",
+          "source": "context-18",
+          "target": "context-3",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-3-context-4",
+          "source": "context-3",
+          "target": "context-4",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-4-context-5",
+          "source": "context-4",
+          "target": "context-5",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-5-context-7",
+          "source": "context-5",
+          "target": "context-7",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-7-context-15",
+          "source": "context-7",
+          "target": "context-15",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-4-context-6",
+          "source": "context-4",
+          "target": "context-6",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-6-context-8",
+          "source": "context-6",
+          "target": "context-8",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-8-context-9",
+          "source": "context-8",
+          "target": "context-9",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-9-context-10",
+          "source": "context-9",
+          "target": "context-10",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-10-context-11",
+          "source": "context-10",
+          "target": "context-11",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-11-context-12",
+          "source": "context-11",
+          "target": "context-12",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-12-context-13",
+          "source": "context-12",
+          "target": "context-13",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-13-context-14",
+          "source": "context-13",
+          "target": "context-14",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-14-context-16",
+          "source": "context-14",
+          "target": "context-16",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-15-context-17",
+          "source": "context-15",
+          "target": "context-17",
+          "type": "above"
+        },
+        "type": "above"
+      },
+      {
+        "data": {
+          "id": "edge-context-16-context-17",
+          "source": "context-16",
+          "target": "context-17",
+          "type": "above"
+        },
+        "type": "above"
+      }
+    ]
+  }
+}
