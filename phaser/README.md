@@ -10,7 +10,7 @@ Please note that in the current prototype stage _it is not recommended to try lo
 
 See [an example test data set](CTD2021-phaser-20210504114322-with-Dating-test-data.json).
 
-Download [a short video clip](https://github.com/stratigraphic/matrix/blob/gh-pages/images/Importing_CSV_file_example5.mp4) explaining how to import a CSV file into the Phaser software, or make your own CSV file data set using the following 4 key fields with the matching field name headings. CSV column heading names need to be exactly as spelled below:
+Download [a short video clip](https://github.com/stratigraphic/matrix/raw/gh-pages/images/Importing_CSV_file_example5.mp4) explaining how to import a CSV file into the Phaser software, or make your own CSV file data set using the following 4 key fields with the matching field name headings. CSV column heading names need to be exactly as spelled below:
 
 * siteCode
 * sourceID
