@@ -8,7 +8,7 @@ The prototype _is designed to enable demonstration_ and an overview of what we h
 
 Please note that in the current prototype stage _it is not recommended to try loading a CSV file with more than around 500-3000 individual context records_. Depending upon feedback on this initial development, the software could be further developed to enable larger numbers of records to be entered, but this would require more time and further resources to enable testing and resolving scaleability issues.
 
-See [an example test data set](TD2021-phaser-20210504114322-with-Dating-test-data.json).
+See [an example test data set](CTD2021-phaser-20210504114322-with-Dating-test-data.json).
 
 Here is a short video clip explaining how to import a CSV file into the Phaser software:
 
