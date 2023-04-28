@@ -1,0 +1,19 @@
+SiteName	LabCode	C14Age	C14SD	PhaseCode	PhaseNumber	PhaseID	Notes	Event
+Obagues de Ratera	CNA-4629.1.1	8800	40	13B2	Phase 13	P1	Before P2	Hearth
+Obagues de Ratera	CNA-5758.1.1	7902	33	13B2	Phase 13	P2	After P1	Hearth
+Obagues de Ratera	CNA-5756.1.1	6807	31	13A1	Phase 13	P3	All P3 contemporaries	Hearth
+Obagues de Ratera	CNA-4630.1.1	6800	35	13A1	Phase 13	P3	All P3 contemporaries	Combustion residues
+Obagues de Ratera	CNA-5757.1.1	6793	32	13A1	Phase 13	P3	All P3 contemporaries	Hearth
+Obagues de Ratera	CNA-4626.1.1	5200	30	9A1-base (11B1)	Phase 11	P4	After P3	Hearth
+Obagues de Ratera	CNA-4628.1.1	4360	30	9A5	Phase 9b	P5	Before P6	Collpase of wooden structure
+Obagues de Ratera	KIA-28280	4160	35	n/a	Phase 9a	P6	Both P6 contemporary	Unknown
+Obagues de Ratera	BETA-509619	4160	30	9A1	Phase 9b	P6	Both P6 contemporary	Combustion residues
+Obagues de Ratera	CNA-4627.1.1	4150	30	9A11	Phase 9a	P7	After P6	Collpase of wooden structure
+Obagues de Ratera	BETA-509618	4100	30	9A12-CC1	Phase 9a	P7	After P6	Hearth
+Obagues de Ratera	BETA-429861	3360	30	5A2	Phase 8	P8	After P7	Combustion residues
+Obagues de Ratera	BETA-509617	3020	30	7A1-cc1	Phase 7	P9	After P8	Hearth
+Obagues de Ratera	BETA-429863	3010	30	6A2	Phase 6	P10	After P9	Combustion residues
+Obagues de Ratera	BETA-429860	2870	30	6A1_C1	Phase 6	P11	After P10	Combustion residues
+Obagues de Ratera	BETA-429862	2520	30	5A1	Phase 5	P12	After P11	Hearth
+Obagues de Ratera	BETA-429864	1460	30	4A1	Phase 4	P13	Both P13 contemporaries	Collpase of wooden structure
+Obagues de Ratera	CNA-4625.1.1	1460	30	6A7	Phase 4	P13	Both P13 contemporaries	Collpase of wooden structure
