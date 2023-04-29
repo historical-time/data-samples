@@ -17,4 +17,4 @@ In the frame of this chronological modelling workgroup, our aim is to:
 1. build the NeoNet Harris matrix of many sites with graph theory and FAIR standards
 2. perform Bayesian analysis on the fly using radiocarbon dates and stratigraphic information
 
-A current example of this type of modelling can be found for the archaeological site of [Obagues de Ratera](https://github.com/historical-time/data-samples/blob/main/neonet/TEST.tsv)
+A current example of this type of modelling can be found for the archaeological site of [Obagues de Ratera](https://github.com/historical-time/data-samples/blob/main/neonet/TEST_2.tsv)
