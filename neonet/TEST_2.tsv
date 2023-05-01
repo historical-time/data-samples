@@ -1,6 +1,6 @@
 SiteName	LabCode	C14Age	C14SD	PhaseCode	PhaseNumber	PhaseID	After	Equal	Notes	Event
-Obagues de Ratera	CNA-4629.1.1	8800	40	13B2	Phase 13	P1 		Before P2	Hearth
-Obagues de Ratera	CNA-5758.1.1	7902	33	13B2	Phase 13	P2		After P1	Hearth
+Obagues de Ratera	CNA-4629.1.1	8800	40	13B2	Phase 13	P1  Before P2	Hearth
+Obagues de Ratera	CNA-5758.1.1	7902	33	13B2	Phase 13	P2  After P1	Hearth
 Obagues de Ratera	CNA-5756.1.1	6807	31	13A1	Phase 13	P3 13B2		All P3 contemporaries	Hearth
 Obagues de Ratera	CNA-4630.1.1	6800	35	13A1	Phase 13	P3 13B2		All P3 contemporaries	Combustion residues
 Obagues de Ratera	CNA-5757.1.1	6793	32	13A1	Phase 13	P3 13B2			All P3 contemporaries	Hearth
