@@ -1,0 +1,47 @@
+SiteName	Period	PhaseCode	LabCode	C14Age	C14SD	Material	MaterialSpecies	After
+Danilo-Bitinj	MN	A/17	OxA-14449	6284	40	animal bone	Ovis musimon	
+Danilo-Bitinj	MN	E/14	OxA-15765	6245	39	plant seed	Triticum monococcum	
+Danilo-Bitinj	MN	E/5	OxA-17126	6237	37	plant seed	Triticum monococcum	
+Danilo-Bitinj	MN	A/31	OxA-15764	6226	37	plant seed	Triticum dicoccum	
+Danilo-Bitinj	MN	A/14	OxA-17196	6212	35	plant seed	Triticum monococcum	
+Danilo-Bitinj	MN	B/6	OxA-17329	6204	38	plant seed	Rosa sp.	
+Danilo-Bitinj	MN	A/46	OxA-15681	6180	34	plant seed	Triticum dicoccum	
+Danilo-Bitinj	MN	C/7	OxA-17200	6161	36	plant seed	Rosa sp.	
+Danilo-Bitinj	MN	A/42	PSU-5290/UCIAMS-116202	6155	25	animal bone	Ovis aries	
+Danilo-Bitinj	MN	A/36	OxA-17197	6121	37	plant seed	Triticum monococcum	
+Danilo-Bitinj	MN	B/24	OxA-17199	6103	37	animal bone	Ovis aries	
+Danilo-Bitinj	MN	B/24	OxA-17198	6093	36	plant seed	Rosa sp.	
+Danilo-Bitinj	MN	C/15	OxA-17224	6083	35	plant seed	Rosa sp.	
+Danilo-Bitinj	MN	B/21	OxA-15680	5987	35	plant seed	Triticum monococcum	
+Kargadur	EN	n/a	OxA-21092	6769	33	plant seed	Hordeum sp.	
+Kargadur	EN	n/a	OxA-21093	6612	32	plant seed	Hordeum sp.	
+Konjevrate	EN	n/a	PSU-5291/UCIAMS-116203	6655	25	animal bone	Ovis aries	
+Konjevrate	EN	n/a	PSU-5557/UCIAMS-119838	6175	30	animal bone	Ovis aries	
+Krivace	MN	III/A1	PSU-5292/UCIAMS-116204	6300	25	animal bone	Bos taurus	
+Krivace	MN	1/SJ20	PSU-5615/UCIAMS-127397	6290	20	human bone	Homo sapiens	
+Krivace	MN	1/SJ24	PSU-5614/UCIAMS-127396	6285	20	human bone	Homo sapiens	
+Krivace	MN	1/SJ22	PSU-5613/UCIAMS-127395	6270	20	human bone	Homo sapiens	
+Krivace	MN	III/A2	PSU-5558/UCIAMS-119839	6115	30	animal bone	Sus scrofa	
+Pokrovnik	EN	A/33	OxA-17328	6810	40	plant seed	Triticum dicoccum	
+Pokrovnik	EN	A/8	OxA-17195	6626	39	plant seed	Triticum monococcum	After A/33
+Pokrovnik	EN	C/23	OxA-17125	6568	36	plant seed	Triticum dicoccum	
+Pokrovnik	MN	C/7	OxA-17124	6197	39	plant seed	Triticum dicoccum	After C/23
+Pokrovnik	MN	D/10 B	PSU-5294/UCIAMS-116206	6190	25	animal bone	Bos taurus	
+Pokrovnik	EN	D/11	PSU-4961/UCIAMS-106478	6840	25	animal bone	Ovis aries	After D/14
+Pokrovnik	EN	D/11	OxA-17193	6625	36	plant seed	Triticum dicoccum	After D/14
+Pokrovnik	EN	D/21	OxA-17194	6999	37	plant seed	Triticum dicoccum	After D/22
+Pokrovnik	EN	D/22	PSU-5293/UCIAMS-116205	7090	25	animal bone	Bos taurus	After D/23
+Pokrovnik	EN	D/23	PSU-5556/UCIAMS-119837	6975	30	animal bone	Ovis aries	After D/9
+Pokrovnik	MN	D/3	OxA-17223	6170	35	plant seed	Triticum dicoccum	After D/11
+Pokrovnik	MN	D/9	PSU-4960/UCIAMS-106477	6280	20	animal bone	Ovis aries	
+Pokrovnik	EN	Layer II	Hd-12842	6290	65	plant seed	n/d	
+Pokrovnik	EN	Layer II	Z-895	6300	150	plant seed	n/d	
+Rasinovac	EN	US 3 (lower part)	PSU-64923/UCIAMS-158546	7065	25	animal bone	Capra hircus	
+Rasinovac	EN	US 3 (upper part)	PSU-5612/UCIAMS-127394	7060	25	animal bone	Bos taurus	
+Vela Spila	EN	n/a	OxA-18118	7134	37	wood charcoal	Rhamnus sp.	
+Vela Spila	EN	Early Neo?	Z-1968	7000	120	wood charcoal	n/d	
+Vela Spila	EN	Neo C	Wk-24219	6735	35	animal bone	n/d	
+Vela Spila	EN	Neo C	Wk-24218	6678	34	animal bone	n/d	
+Vela Spila	EN	Neo?	Z-1742	5430	100	wood charcoal	n/d	
+Vizula	EN	Layer I	Hd-12093	6850	180	animal bone	n/d	
+Vizula	EN	Layer I	Hd-11733	6140	65	animal bone	n/d	
